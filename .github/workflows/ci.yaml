@@ -58,3 +58,4 @@ jobs:
         run: |
           docker build -t suyaka11/food-app:v1.2 .
           docker push suyaka11/food-app:v1.2
+          
