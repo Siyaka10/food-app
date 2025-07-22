@@ -1,5 +1,5 @@
 name: ci/cd
- on:
+on:
   push:
     branches:
       - main
@@ -7,7 +7,7 @@ name: ci/cd
       -'README.md'
       -'.github/workflows/ci.yaml'
       -'K8S/manifest/**'
- jobs:
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
