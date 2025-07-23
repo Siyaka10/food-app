@@ -1,0 +1,10 @@
+service:
+  type: LoadBalancer
+
+monitoringPasscode: someSecurePassword123
+
+community:
+  enabled: true
+
+  storageClass: "gp2"
+  size: 8Gi
